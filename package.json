@@ -1,0 +1,24 @@
+{
+  "name": "best-lang",
+  "version": "0.0.0",
+  "description": "Language parser based on given locales",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicoding/best-lang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alicoding/best-lang/issues"
+  },
+  "homepage": "https://github.com/alicoding/best-lang#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^7.1.1"
+  }
+}
