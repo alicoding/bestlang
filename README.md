@@ -18,12 +18,12 @@ bestLang(arrayOfLanguages, supportedLanguages, defaultLanguage);
 
 ### Example
 
-```
+```js
 var bestLang = require('bestlang');
-bestLang((['fr', 'en-CA', 'fr-CA'], ['en', 'en-IN', 'en-CA', 'id', 'de'], 'en-US'))
+bestLang(['fr', 'en-CA', 'fr-CA'], ['en', 'en-IN', 'en-CA', 'id', 'de'], 'en-US')
 ```
 
-The above will return `en`.
+The above will return `en-CA`.
 
 
 Please file an issue if you find a bug and I will be happy to fix them or PR always accepted :)
